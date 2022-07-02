@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<head>
+    <title>This is employee</title>
+    <link rel="stylesheet" href="emp.css">
+</head>
+
+   <style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 60px;
+  box-sizing: 100px;
+  text-align: center;
+  background-color: #dad2d2;
+  position: relative; top: 20px;
+  border-radius: 30px;
+}
+</style>
+
+<body>
+    <div></div><br>
+    <div></div><br>
+    <div></div>
+    <h1 style="text-align: center">shruti</h1>
+    <h2 style="text-align: center">
+      <a href="file:///C:/Users/saishruti.a/Documents/SHRUTI/FULL%20STACK/html/html%20codes/Emp.html">Main Page |</a> 
+      <a href="file:///C:/Users/saishruti.a/Documents/SHRUTI/FULL%20STACK/html/html%20codes/empAbout.html">About |</a>
+      <a href="file:///C:/Users/saishruti.a/Documents/SHRUTI/FULL%20STACK/html/html%20codes/empLogin.html">Login |</a>
+      <a href="file:///C:/Users/saishruti.a/Documents/SHRUTI/FULL%20STACK/html/html%20codes/empRegis.html">Register |</a>
+      <a href="file:///C:/Users/saishruti.a/Documents/SHRUTI/FULL%20STACK/html/html%20codes/empPro.html">Product |</a>
+      <a href="file:///C:/Users/saishruti.a/Documents/SHRUTI/FULL%20STACK/html/html%20codes/empCon.html">Contact |</a>
+    </h2>
+<div class="shruti">
+    <div class="row">
+        <div class="column">
+          <div class="card">
+            <h3><img src="C:\Users\saishruti.a\Documents\SHRUTI\FULL STACK\html\html codes\coin.PNG"</h3>
+            <p>Investment</p><p></p>
+            
+          </div>
+        </div>
+      
+        <div class="column">
+          <div class="card">
+            <h3><img src="C:\Users\saishruti.a\Documents\SHRUTI\FULL STACK\html\html codes\money.PNG"</h3>
+            <p>Financial Planning </p><p></p>
+            
+          </div>
+        </div>
+        
+        <div class="column">
+          <div class="card">
+            <h3><img src="C:\Users\saishruti.a\Documents\SHRUTI\FULL STACK\html\html codes\plant.PNG"</h3>
+            <p>Debt help    </p><p></p>
+            
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+</body>
+</html>

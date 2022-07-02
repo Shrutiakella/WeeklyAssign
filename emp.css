@@ -1,0 +1,25 @@
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(
+      to bottom,
+      white 0%,
+      white 30%,
+      white 30%,
+      white 50%,
+      orange 50%,
+      orange 80%,
+      black  80%,
+      black 100%
+      
+    );
+    
+  }
+.shruti{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+  
